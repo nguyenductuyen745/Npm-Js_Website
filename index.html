@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/icon/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Arimo:wght@400;700&family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <title>npmjs</title>
+    <link rel="shortcut icon" href="./assets/image/logo-1.png">
+</head>
+<body class="poppins-font">
+    <div class="wrapper">
+        <div class="percentPageLength" style="border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;width: 0; border-top: 8px solid; background-color: red; position: fixed; top: 0; left: 0; z-index: 1;"></div>
+        <!-- <div class="progress" style="width: 100%; position: fixed; top: 0; left: 0; z-index: 1; background-color: transparent">
+            <div class="progress-bar bg-info font-weight-bold progress-bar-striped progress-bar-animated percentPageLength" style="width: 50%; height: 8px;"></div>
+        </div> -->
+        <header class="header">
+            <div class="header__top header-top-font">
+                <a class="header__top-link" href="https://github.blog/2020-04-15-npm-has-joined-github/">
+                    <svg class="header__top-link-npm" viewBox="0 0 780 250">
+                        <path fill="#fff" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z"></path>
+                    </svg>
+                    <span class="header__top-link-span">
+                        <strong>npm</strong> is now a part of <strong>GitHub</strong>
+                    </span>
+                    <i class="header__top-link-logo fab fa-github"></i>
+                </a>
+            </div>
+            <div class="header__middle two-sides-padding">
+                <div class="header__middle-left">
+                    <i class="header__middle-left-icon fas fa-heart"></i>
+                    <div class="header__middle-left-label dim">Neural Prediction Model</div>
+                </div>
+                <nav class="header__middle-navbar">
+                    <ul class="header__middle-navbar-list">
+                        <li class="middle-navbar-item middle-navbar-products">
+                            <a class="middle-navbar-item__link dim" href="#">Products</a>
+                            <ul class="middle-navbar-products__list">
+                                <li class="middle-navbar-product__item">
+                                    <a class="dim" href="#">Pro</a>
+                                </li>
+                                <li class="middle-navbar-product__item">
+                                    <a class="dim" href="#">Teams</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="middle-navbar-item">
+                            <a class="middle-navbar-item__link dim" href="#">Pricing</a>
+                        </li>
+                        <li class="middle-navbar-item">
+                            <a class="middle-navbar-item__link dim" href="#">Documentation</a>
+                        </li>
+                        <li class="middle-navbar-item">
+                            <a class="middle-navbar-item__link dim" href="#">Community</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__bottom two-sides-padding">
+                <a class="header__bottom-logo-link" href="#">
+                    <svg class="header__bottom-logo-npm" viewBox="0 0 780 250"><path fill="#231F20" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z"></path></svg>
+                </a>
+                <div class="header__bottom-with-search">
+                     <!-- <form id="search" action="#" method="POST"> -->
+                        <div class="bottom-with-search__wrap-search">
+                            <svg class="bottom-with-search__icon" width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" aria-hidden="true"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Artboard-1" stroke="#777777" stroke-width="1.3"><g id="Group"><path d="M13.4044,7.0274 C13.4044,10.5494 10.5494,13.4044 7.0274,13.4044 C3.5054,13.4044 0.6504,10.5494 0.6504,7.0274 C0.6504,3.5054 3.5054,0.6504 7.0274,0.6504 C10.5494,0.6504 13.4044,3.5054 13.4044,7.0274 Z" id="Stroke-3"></path><path d="M11.4913,11.4913 L17.8683,17.8683" id="Stroke-7"></path></g></g></g></svg>
+                            <input class="bottom-with-search__input" type="search" placeholder="Search packages">    
+                            <ul class="bottom-with-search__list">
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword">@testing-library/user-event</span>
+                                        <span>Fire events the same way the user does</span>
+                                    </div>
+                                    <span>12.1.0</span>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword">@testing-library/react-native</span>
+                                        <span>Simple and complete React Native testing utilities that encourage good testing practices</span>
+                                    </div>
+                                    <span>7.0.1</span>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword">@twilio/webrtc</span>
+                                        <span>WebRTC-related APIs and shims used by twilio-video.js</span>
+                                    </div>
+                                    <span>4.3.1</span>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword">@tensorflow-models/toxicity</span>
+                                        <span>Toxicity model in TensorFlow.js</span>
+                                    </div>
+                                    <span>1.2.2</span>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword">@thumbtack/thumbprint-tokens</span>
+                                        <span>Design variables that power Thumbtack's UI</span>
+                                    </div>
+                                    <span>12.11</span>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword one-line">@tanem/svg-injector</span>
+                                    </div>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword one-line">@tarojs/taro-rn</span>
+                                    </div>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword one-line">@tarojs/utils</span>
+                                    </div>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword one-line">@tanem/react-nprogress</span>
+                                    </div>
+                                </li>
+                                <li class="bottom-with-search__item">
+                                    <div class="bottom-with-search__item-left">
+                                        <span class="search__item-left-keyword one-line">@tarojs/rn-runner</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="bottom-with-search__button">Search</button>
+                    <!-- </form> -->
+                </div>
+                <div class="header__bottom-functions">
+                    <a class="bottom-functions__sign-up dim" href="#">Sign Up</a>
+                    <a class="bottom-functions__sign-in dim" href="#">Sign In</a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__intro">
+                <div class="main__intro-center">
+                    <h1 class="main__intro-center-heading">Build amazing things</h1>
+                    <div class="main__intro-center-content">
+                        <p class="arimo-font">We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to the community for free, but our day job is building and selling useful tools for developers like you.</p>
+                        <h2 class="intro-center-content__title">Take your JavaScript development up a notch</h2>
+                        <p class="arimo-font">Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with features like private packages.</p>
+                        <div class="intro-center-content__links">
+                            <a class="content__links-sign-up" href="#">Sign up for free</a>
+                            <a class="content__links-learn-pro" href="#">Learn about Pro</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__description sides-section-padding">
+                <div class="main__description-wrap center-frame">
+                    <div class="main__description-img">
+                        <img src="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png" >
+                    </div>
+                    <h2 class="main__description-heading">
+                        Bring the best of open source to you, your team, and your company
+                    </h2>
+                    <p class="main__description-content arimo-font">
+                        Relied upon by more than 11 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and with more than one million packages, the largest software registry in the world. Our other tools and services take the Registry, and the work you do around it, to the next level.
+                    </p>
+                </div>
+            </section>
+            <section class="main__advertise sides-section-padding">
+                <div class="main__advertise-wrap center-frame">
+                    <h1 class="main__advertise-wrap-heading">We ❤ open source</h1>
+                    <p class="main__advertise-wrap-content arimo-font">At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry, enhancing the CLI, improving JavaScript security, and other projects that support and nurture a vibrant open source community.</p>
+                </div>
+            </section>
+            <section class="main__gratefully sides-section-padding">
+                <div class="main__gratefully-wrap center-frame">
+                    <h1 class="main__gratefully-heading">Gratefully serving everyone from solo devs to the Fortune 500</h1>
+                    <img class="main__gratefully-img" alt="brands image" src="https://static.npmjs.com/attachments/ck49cu3ceh1sust74dkzkfn69-grey-logowall.png">    
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="footer-wrap__logo">
+                    <svg viewBox="0 0 27.23 27.23"><rect fill="#333333" width="27.23" height="27.23" rx="2"></rect><polygon fill="#fff" points="5.8 21.75 13.66 21.75 13.67 9.98 17.59 9.98 17.58 21.76 21.51 21.76 21.52 6.06 5.82 6.04 5.8 21.75"></polygon></svg>
+                </div>
+                <div class="footer-wrap__column footer-support">
+                    <h4 class="footer-wrap__title">Support</h4>
+                    <ul class="footer-wrap__list">
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Help</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Community</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Advisories</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Status</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Contact npm</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-wrap__column footer-company">
+                    <h4 class="footer-wrap__title">Company</h4>
+                    <ul class="footer-wrap__list">
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">About</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Blog</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Press</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-wrap__column footer-terms-policies">
+                    <h4 class="footer-wrap__title">Terms & Policies</h4>
+                    <ul class="footer-wrap__list">
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Policies</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Terms of Use</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Code of Conduct</a>
+                        </li>
+                        <li class="footer-wrap__item">
+                            <a class="footer-wrap__item-link" href="#">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="button-rocket">
+        <i class="button-rocket__icon fas fa-rocket"></i>
+    </div>
+    <script src="./assets/javascript-primary.js"></script>
+    <script>
+        scrollAction();
+    </script>
+</body>
+</html>

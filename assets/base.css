@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.arimo-font {
+    font-family: 'Arimo', sans-serif;
+}
+
+.header-top-font {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.poppins-font {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+html {
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; */
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --black-color: black;
+    --white-color: white;
+    --text-color: #333333;
+    --header-top-color: #231f20;
+}
+
+.center-frame{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-width: 512px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.two-sides-padding {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.sides-section-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.dim {
+    transition: opacity 0.15s ease-in;
+    cursor: pointer;
+}
+
+.dim:hover {
+    opacity: 0.5;
+}
